@@ -1,8 +1,0 @@
-CREATE COMPARABILITY l_genre ON LATTICE l_genre (e , u , d ) AS
-CASE a : x IS NOT NULL AND y IS NOT NULL AND x = y
-CASE b : x IS NULL OR y IS NULL
-OTHERWISE c
-
-
-
-
